@@ -1,0 +1,439 @@
+.anek-bangla-anek {
+    font-family: "Anek Bangla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  .nunito-nunito {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+
+:root {
+    --huntergreen: #436436;
+    --tomato: #FF6542;
+    --plum: #dea9e4;
+    --teagreen: #C4DBBD;
+    --choccosmos: #420217;
+    --white: #ffffff;
+    --black: #111;
+    --cerulean: #ffffff;
+}
+* {
+    margin: 0;
+    
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    max-width: 100%;
+    height: 10dvh;
+    font-size: large;
+
+}
+h1 {
+    font-family: "Anek Bangla";
+    font-size: x-large;
+    
+}
+
+nav {
+    /* background-color: #420217; */
+    /* color: #420217; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    font-size: medium;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    /* height: 85dvh; */
+    background-color: white;
+    min-height: 85vh;
+    /* background-color: #111; */
+}
+main > section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1em;
+}
+main > img {
+    
+    width: 35dvw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 3em;
+    
+}
+
+main > * {
+    margin: 0.5em;
+    
+}
+main > p {
+    font-family: "Nunito";
+    font-size: large;
+    /* margin: 1dvw; */
+}
+nav > a {
+    text-decoration: none;
+    font-family: "Nunito";
+    color: white;
+    size: 5dvw;
+    min-width: 5dvw;
+    transition: all .5s ease-in-out;
+    margin: 1em;
+    
+    
+    
+}
+nav > a:hover {
+    transform: scale(1.5);
+    color: #7A75FF;
+}
+button {
+    background-color: black;
+    color: white;
+    
+    border: none;
+    font-family: "Anek Bangla";
+    font-size: large;
+    margin-top: 8dvh;
+}
+.link {
+    margin: 1em;
+    display: flex;
+    width: 4dvw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: var(w);
+    padding: .25em;
+    border-radius: 50%;
+    font-size: 1em;
+
+}
+.logo {
+    display: flex;
+    
+    float: left;
+    width:  10dvw;
+}
+    
+    /* object-fit: scale-down; */
+.skills {
+    float: left;
+    justify-content: left;
+    align-items: left;
+    margin: 4em;
+    text-justify: left;
+    
+}
+.linkedin {
+    /* display: flex; */
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 1dvh;
+    margin: .5em;
+    margin-bottom: 2em;
+    height: 6dvh;
+
+}
+.button {
+    margin: 4dvh;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-decoration: none;
+    font-style: none;
+    margin: .5em;
+    padding: .4em;
+    border-radius: .5em;
+    font-family: "Nunito";
+    transition: all .5s ease-in-out;
+    animation-name: example;
+    animation-duration: 2s;
+    font-size: large;
+    font-style: bold;
+    
+}
+/* @keyframes example {
+    from {background-color: rgb(204, 145, 200);}
+    to {background-color: aquamarine;}
+} */
+.button:hover {
+    /* transform: scale(1.2); */
+    background-color: #7A75FF;
+}
+.examplebutton {
+    margin: 5em;
+}
+.projects {
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1.5em;
+    border: .2em solid #000000;
+    border-radius: 2em;
+    padding: 01em;
+    margin: 1.5em;
+    row-gap: 1em;
+    
+}
+.projectimg {
+    margin: 1em;
+    border: 2px solid black;
+    filter: drop-shadow(3px 10px 4px #7A75FF);
+    transition: all .5s ease-in-out;
+}
+.projectimg:hover {
+    transform: scale(1.1);
+}
+footer > p {
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 5dvh;
+    color:white;
+    font-family: "Anek Bangla";
+    position: absolute;
+    width: 100dvw;
+}
+/* #footer {
+    position: absolute;
+    width: 100;
+    bottom: 0;
+    height: 3rem;
+    
+} */
+.box {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 30em; */
+    
+}
+
+.blogimg {
+    
+    margin: 1em;
+    border: 2px solid black;
+    filter: drop-shadow(3px 10px 4px #7A75FF);
+    transition: all .5s ease-in-out;
+
+}
+.blogimg:hover {
+    transform: scale(1.1);
+}
+.blogsection {
+    transition: 1s;
+    display: flex;
+    flex-wrap: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Nunito";
+    max-width: 50em;
+    min-width: 5em;
+    border: .2em solid #000000;
+    border-radius: 2em;
+    padding: 01em;
+    margin: 1.5em;
+    row-gap: 1em;
+    /* background-color: rgb(178, 152, 250, 0.5); */
+    filter: drop-shadow(1em 1em 5px, #7A75FF);
+    
+
+}
+.blogsection:hover {
+    border-radius: 0;
+}
+
+h3 {
+    font-family: "Anek Bangla";
+    margin-top: 1em;
+}
+.selectedpage {
+    color: #4444dd;
+}
+.aboutmepara {
+    font-family: "Nunito";
+    padding: 1em;
+    max-width: 40em;
+}
+h2 {
+    font-family: "Anek Bangla";
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.projectslayout > .projects {
+    column-gap: 1em;
+    font-family: "Nunito";
+    transition: 1s;
+}
+.projectslayout {
+    display: flex;
+    flex-wrap: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1em;
+    
+}
+.projects:hover {
+    border-radius: 0;
+}
+.itlist {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+    
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: left;
+    font-family: "Nunito";
+    display: flex;
+    flex-direction: column;
+}
+.skillbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-width: 20%;
+}
+.navheading {
+    margin-top: 1.5em;
+    font-size: xx-large;
+    
+}
+.skilllist {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    min-width: 20%;
+    
+}
+.itlist > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.itlist {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    font-family: "Nunito";
+}
+address {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    font-family: "Nunito";
+}
+.resume {
+    margin-bottom: 4em;
+}
+/* Mobile view */
+@media screen and (max-width: 600px) {
+    nav > a {
+        font-size: small;
+    }
+}
+    
+
+/* Desktopview */
+@media screen and (min-width: 600px) {
+    .box {
+        flex-direction: row;
+        align-items: baseline;
+        flex-wrap: wrap;
+    }
+    nav {
+        font-size: large;
+    }
+    .blogsection {
+        width: 30dvw;
+        
+        min-width: 10dvw;
+        /* min-height: 75dvh; */
+
+    }
+    main > p {
+        font-size: large;
+        margin-left: 3em;
+        margin-right: 3em;
+        row-gap: 1em;
+
+    }
+    h1 {
+        font-size: xx-large;
+    }
+    main > img {
+        width: 15dvw;
+    }
+    .projects {
+        max-width: 40%;
+        
+    }
+    .projectslayout {
+        flex-direction: row;
+        align-items: baseline;
+        flex-wrap: wrap;
+    }
+    .skills {
+        flex-direction: row;
+        align-items: baseline;
+        flex-wrap: wrap;
+        justify-content: left;
+        max-width: 40%;
+        min-width: 70%;
+        
+    }
+    /* .itlist {
+        
+        flex-direction: column;
+        align-items: baseline;
+        flex-wrap: wrap;
+    } */
+}
