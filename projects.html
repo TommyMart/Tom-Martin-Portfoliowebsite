@@ -5,24 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&family=Anek+Kannada:wght@100..800&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+    </style>
+    <link rel="icon" type="image/png" href="images/TM.png">
 </head>
 <body>
     <header>
-    <h1>Portfolio</h1>
+    <!-- <h1>Portfolio</h1> -->
     <nav>
-        <a href="/index.html">Home</a>
-        <a href="/about.html">About</a>
-        <a href="/skills.html">Skills</a>
-        <a href="/projects.html">Projects</a>
-        <a href="/contact.html">Contact</a>
+        <a class="link" href="/index.html">Home</a>
+        <a class="link" href="/about.html">About</a>
+        <a class="link" href="/skills.html">Skills</a>
+        <a class="link" style="color: #7A75FF" href="/projects.html">Projects</a>
+        <a class="link" href="/blog.html">Blog</a>
+        <a class="link" href="/contact.html">Contact</a>
     </nav>
-    </header>
+    </header> 
     <main>
-
+        
+        <h1 class="navheading">Projects</h1>
+        <section class="projectslayout">
+            <section class="projects">
+                <h2>Portfolio Website</h2>
+                <img class="projectimg" src="images/Screenshot 2024-03-20 at 8.21.57 pm.png" alt="picture of Tom's portfolio website home page" width="70%">
+                <p>Create a portfolio website using only vanilla HTML and CSS with no frameworks.</p>
+                <p>Grade: </p>
+                <a class="button" href="musicproduction.html">View Website</a>
+            </section>
+            <section class="projects">
+                <h2>Terminal Application</h2>
+                <img class="projectimg" src="images/Screenshot 2024-03-21 at 10.21.11 am.png" alt="picture of terminal with python logo" width= "70%">
+                <p>Build a terminal application using Python.</p>
+                <p>Grade: </p>
+                <a class="button">COMING SOON</a>
+            </section>
+            <section class="projects">
+                <h2>SQL Databases</h2>
+                <img class="projectimg" src="images/Screenshot 2024-03-21 at 10.37.34 am.png" alt="picutre of a database" width="70%">
+                <p>Build an SQL database system.</p>
+                <p>Grade: </p>
+                <a class="button">COMING SOON</a>
+            </section>
+            <section class="projects">
+                <h2>CS Algorithms</h2>
+                <img class="projectimg" src="images/Screenshot 2024-03-21 at 10.31.56 am.png" alt="picture of whiteboard with algorithmns" width="70%">                
+                <p>CS algorithmn fundamentals and discrete mathematics.</p>
+                <p>Grade: </p>
+                <a class="button">COMING SOON</a>
+            </section>
+            <section class="projects">
+                <h2>API Webserver</h2>
+                <img class="projectimg" src="images/Screenshot 2024-03-21 at 10.35.58 am.png" alt="picture of api webserver example" width="70%">
+                <p>Build an API Webserver.</p>
+                <p>Grade: </p>
+                <a class="button">COMING SOON</a>
+            </section>
+            <section class="projects">
+                <h2>Full Stack Application</h2>
+                <img class="projectimg" src="images/Screenshot 2024-03-21 at 10.38.59 am.png" alt="picture of full stack app example" width="70%">
+                <p>Build a full-stack web application.</p>
+                <p>Grade: </p>
+                <a class="button">COMING SOON</a>
+            </section>
+        </section>
     </main>
     <footer>
-        <p>
-            &copy;
+        <p id="footer">
+            Thanks for visiting
         </p>
     </footer>
 </body>

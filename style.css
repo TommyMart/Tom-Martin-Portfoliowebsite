@@ -326,6 +326,7 @@ h2 {
     font-family: "Nunito";
     display: flex;
     flex-direction: column;
+    margin-top: 0%;
 }
 .skillbox {
     display: flex;
@@ -374,6 +375,51 @@ address {
 .resume {
     margin-bottom: 4em;
 }
+.blogimages {
+    border-radius: 0;
+    width: 50%;
+}
+.musicimage {
+    transition: transform 2s;
+}
+.musicimage:hover {
+    transform: rotate(180deg);
+}
+#returntoblog {
+    margin: 3em;
+}
+.designimages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0;
+    width: 40%;
+    margin: 1em;
+
+}
+.designposter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0;
+    width: 80%;
+    margin-bottom: 1em;
+    margin: 1em;
+    margin-top: 2em;
+}
+.acknowledgement {
+    font-size: medium;
+    width: 80%;
+    margin-top: 2%;;
+}
+.aboutmepara {
+    margin: 2em;
+}
+.description {
+    font-size: small;
+    align-items: left;
+    margin-top: 0%;
+}
 /* Mobile view */
 @media screen and (max-width: 600px) {
     nav > a {
@@ -413,8 +459,13 @@ address {
         width: 15dvw;
     }
     .projects {
-        max-width: 40%;
+        max-width: 30%;
         
+        
+    }
+    address {
+        margin: 4em;
+        margin-bottom: 10%;
     }
     .projectslayout {
         flex-direction: row;
@@ -425,15 +476,15 @@ address {
         flex-direction: row;
         align-items: baseline;
         flex-wrap: wrap;
-        justify-content: left;
+        justify-content: center;
         max-width: 40%;
         min-width: 70%;
         
     }
-    /* .itlist {
-        
-        flex-direction: column;
-        align-items: baseline;
-        flex-wrap: wrap;
-    } */
+    .musicimages {
+        width: 60%;
+    }
+    .blogimages {
+        max-width: 25%;
+    }
 }
