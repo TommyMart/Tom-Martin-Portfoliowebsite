@@ -394,9 +394,18 @@ address {
     justify-content: center;
     align-items: center;
     border-radius: 0;
-    width: 40%;
+    width: 30%;
     margin: 1em;
+    border: solid black .05em;
 
+}
+.designcan {
+    width: 30%;
+    margin-bottom: 0%;
+}
+.lazydays {
+    width: 40%;
+    margin-bottom: 0%;
 }
 .designposter {
     display: flex;
@@ -428,6 +437,15 @@ address {
     }
     .blogimages {
         width: 75%;
+    }
+    .designimages {
+        width: 70%;
+    }
+    .designcan {
+        width: 70%;
+    }
+    .lazydays {
+        width: 70%;
     }
 }
     
