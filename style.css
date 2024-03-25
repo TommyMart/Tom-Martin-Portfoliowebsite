@@ -120,6 +120,7 @@ button {
     font-family: "Anek Bangla";
     font-size: large;
     margin-top: 8dvh;
+    margin: 0%;
 }
 .link {
     margin: 1em;
@@ -168,7 +169,7 @@ button {
     color: white;
     text-decoration: none;
     font-style: none;
-    margin: .5em;
+    /* margin: .5em; */
     padding: .4em;
     border-radius: .5em;
     font-family: "Nunito";
@@ -188,7 +189,11 @@ button {
     background-color: #7A75FF;
 }
 .examplebutton {
-    margin: 5em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+.hi {
+    margin: 0%
 }
 .projects {
     margin: 2em;
