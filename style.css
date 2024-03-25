@@ -430,6 +430,10 @@ address {
     align-items: left;
     margin-top: 0%;
 }
+.lookingforward {
+    margin-bottom: 2em;
+    margin-top: 1.5em;;
+}
 /* Mobile view */
 @media screen and (max-width: 600px) {
     nav > a {
