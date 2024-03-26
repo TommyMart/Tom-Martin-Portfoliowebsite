@@ -437,7 +437,7 @@ address {
 }
 .lookingforward {
     margin-bottom: 2em;
-    margin-top: 1.5em;;
+    margin-top: 2em;;
 }
 /* Mobile view */
 @media screen and (max-width: 600px) {
