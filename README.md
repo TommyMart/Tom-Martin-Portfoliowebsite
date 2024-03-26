@@ -47,11 +47,18 @@ I wanted the website to have a simple, modern, clean and sharp aesthetic. To ach
 
 A simple Nunito sans serif font was used to improve legibility and cohesively work with the modern aesthetic of the site. Simple annimations were used to make the wesbite more interesting, though these were purposefully not overdone to keep inline with the chosen aesthetic. 
 
+![Nunito font example](<images/Screenshot 2024-03-26 at 1.23.40 pm.png>)
+![Nunito font example](<images/Screenshot 2024-03-26 at 1.23.26 pm.png>)
+
 ## Wireframes 
 
-Wireframes were designed to gain direction before embarking on the website build, this gave me a reference point if ever I should need it.  
+Wireframes were designed to gain direction before embarking on the website build, this gave me a geographical reference point if ever I should need it.  
 
 ![wireframes of home, about and skills pages](<images/Screenshot 2024-03-26 at 9.49.52 am.png>)
 ![wireframes of projects, blog and contact pages](<images/Screenshot 2024-03-26 at 9.50.03 am.png>)
+
+## Components
+
+
 
 ## Thanks for looking! 
