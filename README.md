@@ -32,12 +32,12 @@ My portfolio website is inteded to showcase my work, skills and personality to p
 ## Tech Stack
 The technologies used to build my portfolio website are as followes:
 
-- HTML - for the basic structure and content. 
-- CSS - for styling, flexbox, media screens and annimations. 
-- Markdown - for the writing the READAME.MD file. 
-- VS Code - IDE for writing the code. 
-- GitHub - for version control.
-- Netlify - for the deployment platform. 
+- **HTML** - for the basic structure and content. 
+- **CSS** - for styling, flexbox, media screens and annimations. 
+- **Markdown** - for the writing the READAME.MD file. 
+- **VS Code** - IDE for writing the code. 
+- **GitHub** - for version control.
+- **Netlify** - for the deployment platform. 
 
 ## Wesbite Aesthetics
 
@@ -45,7 +45,7 @@ I wanted the website to have a simple, modern, clean and sharp aesthetic. To ach
 
 ![lilac colour on white](<images/Screenshot 2024-03-26 at 1.18.40 pm.png>)
 
-A simple Nunito sans serif font was used to improve legibility and cohesively work with the modern aesthetic of the site. Simple annimations were used to make the wesbite more interesting, though these were purposefully not overdone to keep inline with the chosen aesthetic. 
+A simple **Nunito sans serif** font was used to improve legibility and cohesively work with the modern aesthetic of the site. Simple annimations were used to make the wesbite more interesting, though these were purposefully not overdone to keep inline with the chosen aesthetic. 
 
 ![Nunito font example](<images/Screenshot 2024-03-26 at 1.23.40 pm.png>)
 ![Nunito font example](<images/Screenshot 2024-03-26 at 1.23.26 pm.png>)
@@ -59,6 +59,12 @@ Wireframes were designed to gain direction before embarking on the website build
 
 ## Components
 
+- **Navigation Bar** - the nav bar component of the website has been styled with the intenion of providing the viewer with a clear directory for navigation. The white text on the black background makes the words standout, when the mouse is hovered over the selections their size ratios are transformed which communicates to the viewers that they are clickable links that takes you to that page. The current nav bar page is also highlighted in blue, to remind the viewer incase they were unsure whicg page they were on. 
 
+- **Buttons** - the buttons throughout the site are all styled the same way, the font size and family, the background colour, the corners and the hover change in colour. This consistent approach makes it easier for the viewer to know what component is what and limit guessing and website flow errors. 
+
+- **Sections** - seperate projects and blog post sections have been purposefully seperated and styled the same way to achieve consistency. They each have a solid black border with the same rounded edges, that when hovered over become 90 degree angles. The images also each have a lilac drop down shadow and increase in ratio size when hovered over. This subconsciously communicates to the viewer that these sections are part of the same family of projects or blog posts. 
+
+- **Paragraphs** - body copy was styled the same way, to achieve consistency and increase legibility. Paragraphs that stretch across the screen in desktop view are difficult to read because it can be hard to find the next line. The same font size and family have been used to communicate to the viewer that the content is a paragraph about the current page subject. 
 
 ## Thanks for looking! 
