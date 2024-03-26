@@ -18,6 +18,8 @@ This sitemap was developed so that I would have an idea of the layout of the web
 
 ![picture of sitemap](<images/Screenshot 2024-03-26 at 10.35.46 am.png>)
 
+The sitemap shows the 'root' Home page and the different paths that can be taken to access the website. The green LinkIn and GitHub paths are links to new external websites that are not hosted by Netlify with the other wesbite content. The navigation bar provides the user an easily accessible pathway to the six main pages no matter what page they are on - these page pathways are home, about, skills, projects, blog and contact. The resume pdf is a link to my resume pdf, that is stored as a pdf file on Netlify with the rest of the website, but is not responsive like the rest of the site because it is a pdf. The orange email pathway is to an automated email, that carries my email to their chosen email prodiver of choice. Finally, are the blog posts in yellow. These are only accessible from the blog page and have a pathway back to the blog page via a button at the end of the page. Alternatively, the user could just click 'blog' in the nav bar if they didn't want to scroll until the end of the page.
+
 ## Responsive Design
 
 Responsive design was used to improve the viewer experience depending on what screensize they are viewing the website from. CSS flexbox layout was utlised to enhance the overall experience by wrapping sections of the page next to each other when the screen size allows. This can be seen in the screenshot example below,
@@ -41,9 +43,9 @@ The technologies used to build my portfolio website are as followes:
 
 ## Wesbite Aesthetics
 
-I wanted the website to have a simple, modern, clean and sharp aesthetic. To achieve this, high constrasting black and white was chosen as the two main colours, along with a soft but bright lilac for larger text extra styling, used on the current selected navbar page and when hovering over buttons. 
+I wanted the website to have a simple, modern, clean and sharp aesthetic. To achieve this, high constrasting black and white was chosen as the two main colours, along with a soft but bright lilac for larger text extra styling, used on the current selected navbar page and when hovering over buttons. The website was designed with a mobile first approach with accessibility by vision impaired and colourblind a key necessity. 
 
-![lilac colour on white](<images/Screenshot 2024-03-26 at 1.18.40 pm.png>)
+![colour palette](<images/Screenshot 2024-03-26 at 3.18.34 pm.png>)
 
 A simple **Nunito sans serif** font was used to improve legibility and cohesively work with the modern aesthetic of the site. Simple annimations were used to make the wesbite more interesting, though these were purposefully not overdone to keep inline with the chosen aesthetic. 
 
