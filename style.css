@@ -56,6 +56,9 @@ nav {
     max-width: 100%;
     font-size: medium;
 }
+#selectednav {
+    color: #7A75FF;
+}
 main {
     display: flex;
     flex-direction: column;
@@ -94,6 +97,7 @@ main > * {
 main > p {
     font-family: "Nunito";
     font-size: large;
+    margin: 1em;
     /* margin: 1dvw; */
 }
 nav > a {

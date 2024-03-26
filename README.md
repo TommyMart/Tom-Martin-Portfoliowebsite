@@ -16,7 +16,7 @@ The purpose of my portfolio website is to communicate and demonstarte my develop
 ## Responsive Design
 
 Responsive design was used to improve the viewer experience depending on what screensize they are viewing the website from. CSS flexbox layout was utlised to enhance the overall experience by wrapping sections of the page next to each other when the screen size allows. This can be seen in the screenshot example below,
-where the skills are aligned next to each other in a row instead of a longer column that would need to scrolling to view. CSS media screens were also used to change styling, such as font-size, depending on the viewing screen size to asist in legibility. 
+where the skills are aligned next to each other in a row instead of a longer column that would need to scrolling to view. CSS media screens were also used to change styling, such as font-size, depending on the viewing screen size to assist in legibility. 
 
 ![picture of page sections in a row using flexbox](<images/Screenshot 2024-03-26 at 10.53.26 am.png>)
 
@@ -26,6 +26,10 @@ My portfolio website is inteded to showcase my work, skills and personality to p
 
 ## Tech Stack
 The technologies used to build my portfolio website are HTML and CSS, version control was commited to GitHub, and Netlify is used as the deployment platform. 
+
+## Wesbite Aesthetics
+
+I wanted the website to have a simple, modern, clean and sharp aesthetic. To achieve this high constrasting black and white was used as the two main colours, along with a soft but bright lilac for extra styling on the current selected nav bar page and when hovering over buttons. A simple Nunito sans serif font was used to improve legibility and cohesively work with the modern aesthetic of the site. Simple annimations were used to make the wesbite more interesting, though these were purposefully not overdone to keep inline with the chosen aesthetic. 
 
 ## Wireframes 
 
