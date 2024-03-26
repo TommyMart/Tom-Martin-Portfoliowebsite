@@ -3,9 +3,9 @@
 
 And welcome to Tom Martin's portfolio website's readme page. 
 
-You can visit my **[Portfolio Website](https://tommartinportfolio.netlify.app/)** here.
+You can visit my Portfolio Website **[here](https://tommartinportfolio.netlify.app/)** .
 
-And access the code via the **[Github repo](https://github.com/TommyMart/Tom-Martin-Portfoliowebsite)** here.
+And access the code via the Github repo **[here](https://github.com/TommyMart/Tom-Martin-Portfoliowebsite)** .
 
 The purpose of my portfolio website is to communicate and demonstarte my developer and IT professional abilities to prospective employers. Projects will be added to the website as I progress as an aspiring developer to reflect this. The website features a projects and a blog page to display my coding experience, abilities and interests, it also has a skills page and a link to my resume. The aim of the website is to aid in gaining full-time employment at a company who shares similar values. 
 
