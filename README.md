@@ -54,7 +54,7 @@ A simple **Nunito sans serif** font was used to improve legibility and cohesivel
 
 ## Wireframes 
 
-Wireframes were designed to gain direction before embarking on the website build, this gave me a geographical reference point if ever I should need it.  
+Wireframes were designed to gain direction before embarking on the website build, this gave me a geographical reference point if ever I should need it. A mobile first design apporach was used which is reflected in the wireframes. This was then expanded to include other screen sizes such as Ipads and Desktops, utlising CSS's flexbox to make the content fit best depending on the viewing screen. Put simply, on a mobile phone with a small screen size, there is often only enough room for one column, where a larger desktop screen may allow for multiple columns, so the viewer doesn't have to scroll as often. 
 
 ![wireframes of home, about and skills pages](<images/Screenshot 2024-03-26 at 9.49.52 am.png>)
 ![wireframes of projects, blog and contact pages](<images/Screenshot 2024-03-26 at 9.50.03 am.png>)
