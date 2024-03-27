@@ -350,6 +350,9 @@ h2 {
     align-items: left;
     text-align: left;
 }
+.educationheading {
+    margin-top: 2em;
+}
 .alignleft {
     display: flex;
     flex-direction: row;
