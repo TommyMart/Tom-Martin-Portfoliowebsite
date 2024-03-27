@@ -72,6 +72,8 @@ Wireframes were designed to gain direction before embarking on the website build
 - Nav bar linking six HTML documents together via a component - 'About' highlighted in lilac to let the viewer know what page they are on.
 - H1 'About Me' heading.
 - Two paragraphs about me. 
+- H2 'Education' heading.
+- List of education. 
 - Lastly a footer. 
 
 **Skills**
