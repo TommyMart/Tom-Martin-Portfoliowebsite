@@ -60,48 +60,48 @@ Wireframes were designed to gain direction before embarking on the website build
 ![wireframes of projects, blog and contact pages](<images/Screenshot 2024-03-26 at 9.50.03 am.png>)
 
 **Home Page** 
-- Nav bar component with 'Home' highlighted in lilac to let the viewer know what page they are on.
+- Nav bar linking six HTML documents together via a component - 'Home' highlighted in lilac to let the viewer know what page they are on.
 - An image of myself to build a personal connection.
 - H1 'Tom Martin' heading. 
 - A paragraph sentence in italics. 
 - A button styled component 'Examples of my work!' that takes the viewer to the projects page.
-- A link to my LinkedIn and GitHub pages via a logo image anchor link.  
+- Links to professional LinkedIn and GitHub pages via a logo image anchor link.  
 - Lastly a footer. 
 
 **About**
-- Nav bar component with 'About' highlighted in lilac to let the viewer know what page they are on.
+- Nav bar linking six HTML documents together via a component - 'About' highlighted in lilac to let the viewer know what page they are on.
 - H1 'About Me' heading.
 - Two paragraphs about me. 
 - Lastly a footer. 
 
 **Skills**
-- Nav bar component with 'Skills' highlighted in lilac to let the viewer know what page they are on.
+- Nav bar linking six HTML documents together via a component - 'Skills' highlighted in lilac to let the viewer know what page they are on.
 - H1 'Skills' heading.
 - Fours lists that use flex box to determine if they are aligned in a row, column, or both. 
 - Button styled component that takes the viewer to a pdf of my resume when clicked.
 - Lastly a footer.
 
 **Projects**
-- Nav bar component with 'Projects' highlighted in lilac to let the viewer know what page they are on.
+- Nav bar linking six HTML documents together via a component - 'Projects' highlighted in lilac to let the viewer know what page they are on.
 - H1 'Projects' heading. 
 - Six project styled components including a heading, short description paragraph and an image. 
 - Each project component has a button styled component that links the viewer to the project if it is ready or says 'coming soon'. 
 - Lastly a footer.
 
 **Blog**
-- Nav bar component with 'Blog' highlighted in lilac to let the viewer know what page they are on.
+- Nav bar linking six HTML documents together via a component - with 'Blog' highlighted in lilac to let the viewer know what page they are on.
 - H1 'Blog' heading. 
 - Five blog styled components including a heading, date published and an image. 
 - Each project component has a 'read more' button styled component that links the viewer to the blog post.
 - Lastly a footer.
 
 **Contact**
-- Nav bar component with 'Contact' highlighted in lilac to let the viewer know what page they are on.
+- Nav bar linking six HTML documents together via a component - 'Contact' highlighted in lilac to let the viewer know what page they are on.
 - H1 'Contact' heading. 
 - A button styled component that links the viewer to my mail email address via a 'mailto' link.
 - An address section with name, location and email. 
 - A paragraph section in italics acklowedging the traditional owners of the land in which the website was built. 
-- A link to my LinkedIn and GitHub pages via a logo image anchor link. 
+- Links to professional LinkedIn and GitHub pages via a logo image anchor link.  
 - Lastly a footer. 
 
 ## Components

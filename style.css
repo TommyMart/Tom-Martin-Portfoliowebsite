@@ -315,7 +315,6 @@ h2 {
     align-items: center;
     justify-content: center;
     column-gap: 1em;
-    
 }
 .projects:hover {
     border-radius: 0;
@@ -325,7 +324,6 @@ h2 {
     align-items: flex-start;
     flex-direction: column;
     text-align: left;
-    
 }
 .skills {
     display: flex;
@@ -347,15 +345,24 @@ h2 {
 .navheading {
     margin-top: 1.5em;
     font-size: xx-large;
-    
+}
+.education {
+    align-items: left;
+    text-align: left;
+}
+.alignleft {
+    display: flex;
+    flex-direction: row;
+    text-justify: left;
+    max-width: 50%;
 }
 .skilllist {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     min-width: 20%;
-    
 }
+
 .itlist > ul {
     display: flex;
     flex-direction: column;
@@ -525,4 +532,6 @@ address {
     .acknowledgement {
         margin: 2%;
     }
+    
+    
 }
