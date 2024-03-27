@@ -60,6 +60,7 @@ Wireframes were designed to gain direction before embarking on the website build
 ![wireframes of projects, blog and contact pages](<images/Screenshot 2024-03-26 at 9.50.03 am.png>)
 
 **Home Page** 
+
 - Nav bar linking six HTML documents together via a component - 'Home' highlighted in lilac to let the viewer know what page they are on.
 - An image of myself to build a personal connection.
 - H1 'Tom Martin' heading. 
@@ -69,6 +70,7 @@ Wireframes were designed to gain direction before embarking on the website build
 - Lastly a footer. 
 
 **About**
+
 - Nav bar linking six HTML documents together via a component - 'About' highlighted in lilac to let the viewer know what page they are on.
 - H1 'About Me' heading.
 - Two paragraphs about me. 
@@ -77,6 +79,7 @@ Wireframes were designed to gain direction before embarking on the website build
 - Lastly a footer. 
 
 **Skills**
+
 - Nav bar linking six HTML documents together via a component - 'Skills' highlighted in lilac to let the viewer know what page they are on.
 - H1 'Skills' heading.
 - Fours lists that use flex box to determine if they are aligned in a row, column, or both. 
@@ -90,13 +93,15 @@ Flex Column
 ![flex column skills example](<images/Screenshot 2024-03-27 at 3.06.02 pm.png>)
 
 **Projects**
+
 - Nav bar linking six HTML documents together via a component - 'Projects' highlighted in lilac to let the viewer know what page they are on.
 - H1 'Projects' heading. 
 - Six project styled components including a heading, short description paragraph and an image. 
 - Each project component has a button styled component that links the viewer to the project if it is ready or says 'coming soon'. 
 - Lastly a footer.
 
-Flexbox examples
+**Flexbox examples**
+
 Flex Row
 ![flex row projects example](<Screenshot 2024-03-27 at 3.07.49 pm.png>)
 
@@ -104,13 +109,15 @@ Flex Column
 ![flex column projects example](<images/Screenshot 2024-03-27 at 3.06.52 pm.png>)
 
 **Blog**
+
 - Nav bar linking six HTML documents together via a component - with 'Blog' highlighted in lilac to let the viewer know what page they are on.
 - H1 'Blog' heading. 
 - Five blog styled components including a heading, date published and an image. 
 - Each project component has a 'read more' button styled component that links the viewer to the blog post.
 - Lastly a footer.
 
-Flexbox examples
+**Flexbox examples**
+
 Flex Row
 ![flex row blog example](<Screenshot 2024-03-27 at 3.09.30 pm.png>)
 
@@ -118,6 +125,7 @@ Flex Column
 ![flex column blog example](<images/Screenshot 2024-03-27 at 3.10.22 pm.png>)
 
 **Contact**
+
 - Nav bar linking six HTML documents together via a component - 'Contact' highlighted in lilac to let the viewer know what page they are on.
 - H1 'Contact' heading. 
 - A button styled component that links the viewer to my mail email address via a 'mailto' link.
