@@ -136,7 +136,7 @@ Flex Column
 
 ## Components
 
-- **Navigation Bar** - the nav bar component of the website has been styled with the intenion of providing the viewer with a clear directory for navigation. The white text on the black background makes the words standout, when the mouse is hovered over the selections their size ratios are transformed which communicates to the viewers that they are clickable links that takes you to that page. The current nav bar page is also highlighted in blue, to remind the viewer incase they were unsure whicg page they were on. 
+- **Navigation Bar** - the nav bar component of the website has been styled with the intention of providing the viewer with a clear directory for navigating the website. The white text on the black background makes the words standout, when the mouse is hovered over the selections their size ratios are transformed which communicates to the viewers that they are clickable links that takes you to that page. The current nav bar page is also highlighted in blue, to remind the viewer incase they were unsure whicg page they were on. 
 
 - **Buttons** - the buttons throughout the site are all styled the same way, the font size and family, the background colour, the corners and the hover change in colour. This consistent approach makes it easier for the viewer to know what component is what and limit guessing and website flow errors. 
 
