@@ -131,7 +131,6 @@ button {
     animation-duration: 2s;
     font-size: large;
     font-style: bold;
-    
 }
 .button:hover {
     /* transform: scale(1.2); */
@@ -153,7 +152,6 @@ button {
     padding: .25em;
     border-radius: 50%;
     font-size: 1em;
-
 }
 /* LinkIn and GitHub  */
 .logo {
@@ -170,7 +168,6 @@ button {
     margin: .5em;
     margin-bottom: 1em;
     height: 6dvh;
-
 }
 .hi {
     margin: 0%
@@ -268,7 +265,7 @@ footer > p {
     /* background-color: rgb(178, 152, 250, 0.5); */
     filter: drop-shadow(1em 1em 5px, #7A75FF);
     
-
+/* Blog image component */
 }
 .blogsection:hover {
     border-radius: 0;
@@ -390,6 +387,7 @@ address {
     margin: 6%;;
 }
 /* Music Production */
+/* Vinyl records component */
 .musicimage {
     transition: transform 2s;
 }

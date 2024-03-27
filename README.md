@@ -174,6 +174,8 @@ Flex Column
 
 - **Blog and Paragraph Tile Sections** - seperate projects and blog post sections have been purposefully seperated and styled the same way to achieve consistency. They each have a solid black border with the same rounded edges, that when hovered over become 90 degree angles. The images also each have a lilac drop down shadow and increase in ratio size when hovered over. This subconsciously communicates to the viewer that these sections are part of the same family of projects or blog posts. 
 
-- **Paragraphs** - body copy was styled the same way, to achieve consistency and increase legibility. Paragraphs that stretch across the screen in desktop view are difficult to read because it can be hard to find the next line. The same font size and family have been used to communicate to the viewer that the content is a paragraph about the current page subject. 
+- **Paragraphs** - body copy was styled the same way, to achieve consistency and increase legibility, using the same font family, weight and height. Paragraphs that stretch across the screen in desktop view are difficult to read because it can be hard to find the next line. The same font size and family have been used to communicate to the viewer that the content is a paragraph about the current page subject. 
+
+- **Blog Images** - are the styled to be the same size and each increase slightly in ratios when hovered over. They also have a lilac drop shadow and a black solid border. 
 
 ## Thanks for looking! 
