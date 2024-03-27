@@ -76,7 +76,7 @@ Music Production and Record Label wireframe
 
 Design wireframe
 
-![design wireframe](<Screenshot 2024-03-27 at 3.40.51 pm.png>)
+![design wireframe](<images/Screenshot 2024-03-27 at 3.40.51 pm.png>)
 
 *The wireframe for design had multiple larger images which appear before the descriptive paragraphs.*
 
@@ -124,9 +124,11 @@ Flex Column
 **Flexbox examples**
 
 Flex Row
-![flex row projects example](<Screenshot 2024-03-27 at 3.07.49 pm.png>)
+
+![flex row projects example](<images/Screenshot 2024-03-27 at 3.07.49 pm.png>)
 
 Flex Column
+
 ![flex column projects example](<images/Screenshot 2024-03-27 at 3.06.52 pm.png>)
 
 **Blog**
@@ -140,7 +142,8 @@ Flex Column
 **Flexbox examples**
 
 Flex Row
-![flex row blog example](<Screenshot 2024-03-27 at 3.09.30 pm.png>)
+
+![flex row blog example](<images/Screenshot 2024-03-27 at 3.09.30 pm.png>)
 
 Flex Column
 ![flex column blog example](<images/Screenshot 2024-03-27 at 3.10.22 pm.png>)
