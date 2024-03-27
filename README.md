@@ -83,6 +83,12 @@ Wireframes were designed to gain direction before embarking on the website build
 - Button styled component that takes the viewer to a pdf of my resume when clicked.
 - Lastly a footer.
 
+Flexbox examples
+Flex Row
+![Flex row skills example](<images/Screenshot 2024-03-27 at 3.04.47 pm.png>)
+Flex Column
+![flex column skills example](<images/Screenshot 2024-03-27 at 3.06.02 pm.png>)
+
 **Projects**
 - Nav bar linking six HTML documents together via a component - 'Projects' highlighted in lilac to let the viewer know what page they are on.
 - H1 'Projects' heading. 
@@ -90,12 +96,26 @@ Wireframes were designed to gain direction before embarking on the website build
 - Each project component has a button styled component that links the viewer to the project if it is ready or says 'coming soon'. 
 - Lastly a footer.
 
+Flexbox examples
+Flex Row
+![flex row projects example](<Screenshot 2024-03-27 at 3.07.49 pm.png>)
+
+Flex Column
+![flex column projects example](<images/Screenshot 2024-03-27 at 3.06.52 pm.png>)
+
 **Blog**
 - Nav bar linking six HTML documents together via a component - with 'Blog' highlighted in lilac to let the viewer know what page they are on.
 - H1 'Blog' heading. 
 - Five blog styled components including a heading, date published and an image. 
 - Each project component has a 'read more' button styled component that links the viewer to the blog post.
 - Lastly a footer.
+
+Flexbox examples
+Flex Row
+![flex row blog example](<Screenshot 2024-03-27 at 3.09.30 pm.png>)
+
+Flex Column
+![flex column blog example](<images/Screenshot 2024-03-27 at 3.10.22 pm.png>)
 
 **Contact**
 - Nav bar linking six HTML documents together via a component - 'Contact' highlighted in lilac to let the viewer know what page they are on.
@@ -112,7 +132,7 @@ Wireframes were designed to gain direction before embarking on the website build
 
 - **Buttons** - the buttons throughout the site are all styled the same way, the font size and family, the background colour, the corners and the hover change in colour. This consistent approach makes it easier for the viewer to know what component is what and limit guessing and website flow errors. 
 
-- **Sections** - seperate projects and blog post sections have been purposefully seperated and styled the same way to achieve consistency. They each have a solid black border with the same rounded edges, that when hovered over become 90 degree angles. The images also each have a lilac drop down shadow and increase in ratio size when hovered over. This subconsciously communicates to the viewer that these sections are part of the same family of projects or blog posts. 
+- **Blog and Paragraph Tile Sections** - seperate projects and blog post sections have been purposefully seperated and styled the same way to achieve consistency. They each have a solid black border with the same rounded edges, that when hovered over become 90 degree angles. The images also each have a lilac drop down shadow and increase in ratio size when hovered over. This subconsciously communicates to the viewer that these sections are part of the same family of projects or blog posts. 
 
 - **Paragraphs** - body copy was styled the same way, to achieve consistency and increase legibility. Paragraphs that stretch across the screen in desktop view are difficult to read because it can be hard to find the next line. The same font size and family have been used to communicate to the viewer that the content is a paragraph about the current page subject. 
 

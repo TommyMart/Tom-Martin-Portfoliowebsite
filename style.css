@@ -1,3 +1,4 @@
+/* Imported Fonts */
 .anek-bangla-anek {
     font-family: "Anek Bangla", sans-serif;
     font-optical-sizing: auto;
@@ -12,52 +13,9 @@
     font-weight: 300;
     font-style: normal;
   }
-
-
-:root {
-    --huntergreen: #436436;
-    --tomato: #FF6542;
-    --plum: #dea9e4;
-    --teagreen: #C4DBBD;
-    --choccosmos: #420217;
-    --white: #ffffff;
-    --black: #111;
-    --cerulean: #ffffff;
-}
+/* Main Styling */
 * {
     margin: 0;
-    
-}
-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-    max-width: 100%;
-    height: 10dvh;
-    font-size: large;
-
-}
-h1 {
-    font-family: "Anek Bangla";
-    font-size: x-large;
-    
-}
-
-nav {
-    /* background-color: #420217; */
-    /* color: #420217; */
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    max-width: 100%;
-    font-size: medium;
-}
-#selectednav {
-    color: #7A75FF;
 }
 main {
     display: flex;
@@ -87,18 +45,49 @@ main > img {
     align-items: center;
     border-radius: 50%;
     margin: 3em;
-    
 }
-
 main > * {
     margin: 0.5em;
-    
 }
 main > p {
     font-family: "Nunito";
     font-size: large;
     margin: 1em;
     /* margin: 1dvw; */
+}
+/* Header 1 */
+h1 {
+    font-family: "Anek Bangla";
+    font-size: x-large;
+}
+/* Navigation Bar Component */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    max-width: 100%;
+    height: 10dvh;
+    font-size: large;
+}
+nav {
+    /* background-color: #420217; */
+    /* color: #420217; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    font-size: medium;
+}
+#selectednav {
+    color: #7A75FF;
+}
+nav > a:hover {
+    transform: scale(1.5);
+    color: #7A75FF;
 }
 nav > a {
     text-decoration: none;
@@ -108,14 +97,15 @@ nav > a {
     min-width: 5dvw;
     transition: all .5s ease-in-out;
     margin: 1em;
-    
-    
-    
 }
-nav > a:hover {
-    transform: scale(1.5);
-    color: #7A75FF;
+.navheading {
+    margin-top: 1.5em;
+    font-size: xx-large;
 }
+.selectedpage {
+    color: #4444dd;
+}
+/* Button Component */
 button {
     background-color: black;
     color: white;
@@ -125,47 +115,6 @@ button {
     font-size: large;
     margin-top: 8dvh;
     margin: 0%;
-}
-.link {
-    margin: 1em;
-    display: flex;
-    width: 4dvw;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    background-color: var(w);
-    padding: .25em;
-    border-radius: 50%;
-    font-size: 1em;
-
-}
-.logo {
-    display: flex;
-    
-    float: left;
-    width:  10dvw;
-}
-    
-    /* object-fit: scale-down; */
-.skills {
-    float: left;
-    justify-content: left;
-    align-items: left;
-    margin: 4em;
-    text-justify: left;
-    
-}
-.linkedin {
-    /* display: flex; */
-    /* flex-direction: row; */
-    justify-content: center;
-    align-items: center;
-    margin-top: 1dvh;
-    margin: .5em;
-    margin-bottom: 1em;
-    height: 6dvh;
-
 }
 .button {
     margin: 4dvh;
@@ -184,10 +133,6 @@ button {
     font-style: bold;
     
 }
-/* @keyframes example {
-    from {background-color: rgb(204, 145, 200);}
-    to {background-color: aquamarine;}
-} */
 .button:hover {
     /* transform: scale(1.2); */
     background-color: #7A75FF;
@@ -196,9 +141,41 @@ button {
     margin-top: 5em;
     margin-bottom: 5em;
 }
+.link {
+    margin: 1em;
+    display: flex;
+    width: 4dvw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: var(w);
+    padding: .25em;
+    border-radius: 50%;
+    font-size: 1em;
+
+}
+/* LinkIn and GitHub  */
+.logo {
+    display: flex;
+    float: left;
+    width:  10dvw;
+}
+.linkedin {
+    /* display: flex; */
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 1dvh;
+    margin: .5em;
+    margin-bottom: 1em;
+    height: 6dvh;
+
+}
 .hi {
     margin: 0%
 }
+/* Projects component */
 .projects {
     margin: 2em;
     display: flex;
@@ -211,7 +188,6 @@ button {
     padding: 01em;
     margin: 1.5em;
     row-gap: 1em;
-    
 }
 .projectimg {
     margin: 1em;
@@ -222,6 +198,29 @@ button {
 .projectimg:hover {
     transform: scale(1.1);
 }
+.projectslayout > .projects {
+    column-gap: 1em;
+    font-family: "Nunito";
+    transition: 1s;
+}
+.projectslayout {
+    display: flex;
+    flex-wrap: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1em;
+}
+.projects:hover {
+    border-radius: 0;
+}
+.itlist {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+}
+/* Footer component */
 footer > p {
     display: flex;
     /* flex-direction: row; */
@@ -234,23 +233,12 @@ footer > p {
     position: absolute;
     width: 100dvw;
 }
-/* #footer {
-    position: absolute;
-    width: 100;
-    bottom: 0;
-    height: 3rem;
-    
-} */
+/* Blogs component */
 .box {
     display: flex;
     flex-direction: column;
-    /* align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    max-width: 30em; */
     
 }
-
 .blogimg {
     
     margin: 1em;
@@ -285,45 +273,58 @@ footer > p {
 .blogsection:hover {
     border-radius: 0;
 }
-
-h3 {
-    font-family: "Anek Bangla";
-    margin-top: 1em;
+.blogimages {
+    border-radius: 0;
+    width: 50%;
+    margin: 1em;
 }
-.selectedpage {
-    color: #4444dd;
-}
-.aboutmepara {
-    font-family: "Nunito";
-    padding: 1em;
-    max-width: 40em;
-}
+/* Headings 2 and 3 */
 h2 {
     font-family: "Anek Bangla";
     margin-bottom: 1em;
     margin-top: 1em;
 }
-.projectslayout > .projects {
-    column-gap: 1em;
+h3 {
+    font-family: "Anek Bangla";
+    margin-top: 1em;
+}
+/* About me */
+.aboutmepara {
     font-family: "Nunito";
-    transition: 1s;
+    padding: 1em;
+    max-width: 40em;
 }
-.projectslayout {
-    display: flex;
-    flex-wrap: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    column-gap: 1em;
+.aboutmepara {
+    margin: 2em;
 }
-.projects:hover {
-    border-radius: 0;
+.description {
+    font-size: small;
+    align-items: left;
+    margin-top: 0%;
 }
-.itlist {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
+
+/* Education section */
+.education {
+    align-items: left;
     text-align: left;
+}
+.educationheading {
+    margin-top: 2em;
+}
+.alignleft {
+    display: flex;
+    flex-direction: row;
+    text-justify: left;
+    max-width: 50%;
+}
+/* Skills List component */
+.skills {
+    float: left;
+    justify-content: left;
+    align-items: left;
+    margin: 4em;
+    text-justify: left;
+    
 }
 .skills {
     display: flex;
@@ -342,30 +343,12 @@ h2 {
     justify-content: center;
     min-width: 20%;
 }
-.navheading {
-    margin-top: 1.5em;
-    font-size: xx-large;
-}
-.education {
-    align-items: left;
-    text-align: left;
-}
-.educationheading {
-    margin-top: 2em;
-}
-.alignleft {
-    display: flex;
-    flex-direction: row;
-    text-justify: left;
-    max-width: 50%;
-}
 .skilllist {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     min-width: 20%;
 }
-
 .itlist > ul {
     display: flex;
     flex-direction: column;
@@ -379,6 +362,11 @@ h2 {
     /* justify-content: center; */
     font-family: "Nunito";
 }
+/* Resume */
+.resume {
+    margin-bottom: 4em;
+}
+/* Contact */
 address {
     margin-top: 10%;
     margin-bottom: 10%;
@@ -391,14 +379,17 @@ address {
     margin-bottom: 3em;
     font-family: "Nunito";
 }
-.resume {
-    margin-bottom: 4em;
+.lookingforward {
+    margin-bottom: 2em;
+    margin-top: 2em;;
 }
-.blogimages {
-    border-radius: 0;
-    width: 50%;
-    margin: 1em;
+/* Country acknowledgement */
+.acknowledgement {
+    font-size: medium;
+    width: 80%;
+    margin: 6%;;
 }
+/* Music Production */
 .musicimage {
     transition: transform 2s;
 }
@@ -408,6 +399,7 @@ address {
 #returntoblog {
     margin: 3em;
 }
+/* Design */
 .designimages {
     display: flex;
     justify-content: center;
@@ -436,23 +428,6 @@ address {
     margin: 1em;
     margin-top: 2em;
 }
-.acknowledgement {
-    font-size: medium;
-    width: 80%;
-    margin: 6%;;
-}
-.aboutmepara {
-    margin: 2em;
-}
-.description {
-    font-size: small;
-    align-items: left;
-    margin-top: 0%;
-}
-.lookingforward {
-    margin-bottom: 2em;
-    margin-top: 2em;;
-}
 /* Mobile view */
 @media screen and (max-width: 600px) {
     nav > a {
@@ -471,8 +446,6 @@ address {
         width: 70%;
     }
 }
-    
-
 /* Desktopview */
 @media screen and (min-width: 600px) {
     .box {
