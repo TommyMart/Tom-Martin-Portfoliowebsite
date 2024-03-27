@@ -22,8 +22,7 @@ The sitemap shows the 'root' Home page and the different paths that can be taken
 
 ## Responsive Design
 
-Responsive design was used to improve the viewer experience depending on what screensize they are viewing the website from. CSS flexbox layout was utlised to enhance the overall experience by wrapping sections of the page next to each other when the screen size allows. This can be seen in the screenshot example below,
-where the skills are aligned next to each other in a row instead of a longer column that would need to scrolling to view. CSS media screens were also used to change styling, such as font-size, depending on the viewing screen size to assist in legibility. 
+Responsive design was used to improve the viewer experience depending on what screensize they are viewing the website from. CSS flexbox layout was utlised to enhance the overall experience by wrapping sections of the page next to each other when the screen size allows. This can be seen in the screenshot example below, where the skills are aligned next to each other in a row instead of a longer column that would need to scrolling to view. CSS media screens were also used to change styling, such as font-size, depending on the viewing screen size to assist in legibility. 
 
 ![picture of page sections in a row using flexbox](<images/Screenshot 2024-03-26 at 10.53.26 am.png>)
 
@@ -56,8 +55,30 @@ A simple **Nunito sans serif** font was used to improve legibility and cohesivel
 
 Wireframes were designed to gain direction before embarking on the website build, this gave me a geographical reference point if ever I should need it. A mobile first design apporach was used which is reflected in the wireframes. This was then expanded to include other screen sizes such as Ipads and Desktops, utlising CSS's flexbox to make the content fit best depending on the viewing screen. Put simply, on a mobile phone with a small screen size, there is often only enough room for one column, where a larger desktop screen may allow for multiple columns, so the viewer doesn't have to scroll as often. 
 
+**Nav Bar Pages**
+
 ![wireframes of home, about and skills pages](<images/Screenshot 2024-03-26 at 9.49.52 am.png>)
 ![wireframes of projects, blog and contact pages](<images/Screenshot 2024-03-26 at 9.50.03 am.png>)
+
+**Blog Pages**
+
+Gardening & Cooking wireframe
+
+*Singular image before descriptive paragraph*
+
+![gardening wireframe](<images/Screenshot 2024-03-27 at 3.30.34 pm.png>)
+
+Music Production and Record Label wireframe
+
+*Descriptive paragraph then multiple images of vinyl records stacked next to, and on top of, one another.*
+
+![music production and record label wireframe](<images/Screenshot 2024-03-27 at 3.39.13 pm.png>)
+
+Design wireframe
+
+![design wireframe](<Screenshot 2024-03-27 at 3.40.51 pm.png>)
+
+*The wireframe for design had multiple larger images which appear before the descriptive paragraphs.*
 
 **Home Page** 
 
@@ -67,7 +88,7 @@ Wireframes were designed to gain direction before embarking on the website build
 - A paragraph sentence in italics. 
 - A button styled component 'Examples of my work!' that takes the viewer to the projects page.
 - Links to professional LinkedIn and GitHub pages via a logo image anchor link.  
-- Lastly a footer. 
+- Footer. 
 
 **About**
 
@@ -76,7 +97,7 @@ Wireframes were designed to gain direction before embarking on the website build
 - Two paragraphs about me. 
 - H2 'Education' heading.
 - List of education. 
-- Lastly a footer. 
+- Footer. 
 
 **Skills**
 
@@ -84,7 +105,7 @@ Wireframes were designed to gain direction before embarking on the website build
 - H1 'Skills' heading.
 - Fours lists that use flex box to determine if they are aligned in a row, column, or both. 
 - Button styled component that takes the viewer to a pdf of my resume when clicked.
-- Lastly a footer.
+- Footer.
 
 Flexbox examples
 Flex Row
@@ -98,7 +119,7 @@ Flex Column
 - H1 'Projects' heading. 
 - Six project styled components including a heading, short description paragraph and an image. 
 - Each project component has a button styled component that links the viewer to the project if it is ready or says 'coming soon'. 
-- Lastly a footer.
+- Footer.
 
 **Flexbox examples**
 
@@ -114,7 +135,7 @@ Flex Column
 - H1 'Blog' heading. 
 - Five blog styled components including a heading, date published and an image. 
 - Each project component has a 'read more' button styled component that links the viewer to the blog post.
-- Lastly a footer.
+- Footer.
 
 **Flexbox examples**
 
@@ -124,6 +145,17 @@ Flex Row
 Flex Column
 ![flex column blog example](<images/Screenshot 2024-03-27 at 3.10.22 pm.png>)
 
+**Blog Pages**
+
+*Order slightly varies between blog pages from images first to paragraph first.*
+
+- Nav bar linking six HTML documents together via a component - with 'Blog' highlighted in lilac to let the viewer know what page they are on.
+- H1 'Blog' heading - depending on which blog page the viewer is one. 
+- Blog related image. 
+- BLog related paragraph.
+- 'Return to blog' component styled button - that takes the viewer back to the blog main page. 
+- Footer
+
 **Contact**
 
 - Nav bar linking six HTML documents together via a component - 'Contact' highlighted in lilac to let the viewer know what page they are on.
@@ -132,7 +164,7 @@ Flex Column
 - An address section with name, location and email. 
 - A paragraph section in italics acklowedging the traditional owners of the land in which the website was built. 
 - Links to professional LinkedIn and GitHub pages via a logo image anchor link.  
-- Lastly a footer. 
+- Footer. 
 
 ## Components
 
