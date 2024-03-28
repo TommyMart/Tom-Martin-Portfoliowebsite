@@ -9,11 +9,13 @@ And access the code via the Github repo **[here](https://github.com/TommyMart/To
 
 You can watch a walk through presentation video of my portfolio website here **[here](https://www.loom.com/share/0dd3bf648f21450783588dff90051689?sid=826f0445-363b-4977-9494-6ec06ab26b95)**.
 
+---
 
 ## Purpose
 
 The purpose of my portfolio website is to communicate and demonstarte my developer and IT professional abilities to prospective employers. Projects will be added to the website as I progress as an aspiring developer to reflect this. The website features a projects and a blog page to display my coding experience, abilities and interests, it also has a skills page and a link to my resume should be required. The end goal of the website is to aid in gaining full-stack employment or an internship at a company who shares similar values. 
 
+---
 
 ## SITEMAP 
 
@@ -23,15 +25,21 @@ This sitemap was developed so that I would have an idea of the layout of the web
 
 The sitemap shows the 'root' Home page and the different paths that can be taken to access the website. The green LinkIn and GitHub paths are links to new external websites that are not hosted by Netlify with the other wesbite content. The navigation bar provides the user an easily accessible pathway to the six main pages no matter what page they are on - these page pathways are home, about, skills, projects, blog and contact. The resume pdf is a link to my resume pdf, that is stored as a pdf file on Netlify with the rest of the website, but is not responsive like the rest of the site because it is a pdf. The orange email pathway is to an automated email, that carries my email to their chosen email prodiver of choice. Finally, are the blog posts in yellow. These are only accessible from the blog page and have a pathway back to the blog page via a button at the end of the page. Alternatively, the user could just click 'blog' in the nav bar if they didn't want to scroll until the end of the page.
 
+---
+
 ## Responsive Design
 
 Responsive design was used to improve the viewer experience depending on what screensize they are viewing the website from. CSS flexbox layout was utlised to enhance the overall experience by wrapping sections of the page next to each other when the screen size allows. This can be seen in the screenshot example below, where the skills are aligned next to each other in a row instead of a longer column that would need to scrolling to view. CSS media screens were also used to change styling, such as font-size, depending on the viewing screen size to assist in legibility. 
 
 ![picture of page sections in a row using flexbox](<images/Screenshot 2024-03-26 at 10.53.26 am.png>)
 
+---
+
 ## Target Audience
 
-My portfolio website is inteded to showcase my work, skills and personality to potential employers who have technical knowledge of information technology, development, programming languages and development stacks.
+My portfolio website is inteded to showcase my work, skills and personality to potential employers who have technical knowledge of information technology, development, programming languages and development stacks, with the aim of attaining employment or an internship at their company.
+
+---
 
 ## Tech Stack
 The technologies used to build my portfolio website are as followes:
@@ -43,6 +51,8 @@ The technologies used to build my portfolio website are as followes:
 - **GitHub** - for version control.
 - **Netlify** - for the deployment platform. 
 
+---
+
 ## Wesbite Aesthetics
 
 I wanted the website to have a simple, modern, clean and sharp aesthetic. To achieve this, high constrasting black and white was chosen as the two main colours, along with a soft but bright lilac for larger text extra styling, used on the current selected navbar page and when hovering over buttons. The website was designed with a mobile first approach with accessibility by vision impaired and colourblind a key necessity. 
@@ -51,17 +61,25 @@ I wanted the website to have a simple, modern, clean and sharp aesthetic. To ach
 
 A simple **Nunito sans serif** font was used to improve legibility and cohesively work with the modern aesthetic of the site. Simple annimations were used to make the wesbite more interesting, though these were purposefully not overdone to keep inline with the chosen aesthetic. 
 
+---
+
 ![Nunito font example](<images/Screenshot 2024-03-26 at 1.23.40 pm.png>)
 ![Nunito font example](<images/Screenshot 2024-03-26 at 1.23.26 pm.png>)
+
+---
 
 ## Wireframes 
 
 Wireframes were designed to gain direction before embarking on the website build, this gave me a geographical reference point if ever I should need it. A mobile first design apporach was used which is reflected in the wireframes. This was then expanded to include other screen sizes such as Ipads and Desktops, utlising CSS's flexbox to make the content fit best depending on the viewing screen. Put simply, on a mobile phone with a small screen size, there is often only enough room for one column, where a larger desktop screen may allow for multiple columns, so the viewer doesn't have to scroll as often. 
 
+---
+
 **Nav Bar Pages**
 
 ![wireframes of home, about and skills pages](<images/Screenshot 2024-03-26 at 9.49.52 am.png>)
 ![wireframes of projects, blog and contact pages](<images/Screenshot 2024-03-26 at 9.50.03 am.png>)
+
+---
 
 **Blog Pages**
 
@@ -71,17 +89,23 @@ Gardening & Cooking wireframe
 
 ![gardening wireframe](<images/Screenshot 2024-03-27 at 3.30.34 pm.png>)
 
+---
+
 Music Production and Record Label wireframe
 
 *Descriptive paragraph then multiple images of vinyl records stacked next to, and on top of, one another.*
 
 ![music production and record label wireframe](<images/Screenshot 2024-03-27 at 3.39.13 pm.png>)
 
+---
+
 Design wireframe
 
 ![design wireframe](<images/Screenshot 2024-03-27 at 3.40.51 pm.png>)
 
 *The wireframe for design had multiple larger images which appear before the descriptive paragraphs.*
+
+---
 
 **Home Page** 
 
@@ -95,6 +119,8 @@ Design wireframe
 
 ![home page screenshot](<images/Screenshot 2024-03-28 at 10.23.44 am.png>)
 
+---
+
 **About**
 
 - Nav bar linking six HTML documents together via a component - 'About' highlighted in lilac to let the viewer know what page they are on.
@@ -106,6 +132,8 @@ Design wireframe
 
 ![about me page screenshot](<images/Screenshot 2024-03-28 at 10.24.22 am.png>)
 
+---
+
 **Skills**
 
 - Nav bar linking six HTML documents together via a component - 'Skills' highlighted in lilac to let the viewer know what page they are on.
@@ -114,13 +142,21 @@ Design wireframe
 - Button styled component that takes the viewer to a pdf of my resume when clicked.
 - Footer.
 
-Flexbox examples
+**Flexbox examples**
+
 Flex Row
+
 ![Flex row skills example](<images/Screenshot 2024-03-27 at 3.04.47 pm.png>)
+
 Flex Column
+
 ![flex column skills example](<images/Screenshot 2024-03-27 at 3.06.02 pm.png>)
 
+---
+
 ![skills page screenshot](<images/Screenshot 2024-03-28 at 10.37.22 am.png>)
+
+---
 
 **Projects**
 
@@ -140,7 +176,11 @@ Flex Row
 
 Flex Column
 
+---
+
 ![flex column projects example](<images/Screenshot 2024-03-27 at 3.06.52 pm.png>)
+
+---
 
 **Blog**
 
@@ -152,6 +192,8 @@ Flex Column
 
 ![blog page screenshot](<images/Screenshot 2024-03-28 at 10.38.36 am.png>)
 
+---
+
 **Blog Page 1 - Music Production**
 
 - Nav bar linking six HTML documents together via a component - with 'Blog' highlighted in lilac to let the viewer know what page they are on.
@@ -161,6 +203,8 @@ Flex Column
 - 'Read to Blog' button styled component that links the viewer back to the blog page.
 
 ![music production blog page screenshot](<images/Screenshot 2024-03-28 at 10.39.05 am.png>)
+
+---
 
 **Blog Page 2 - Record Label**
 
@@ -186,6 +230,8 @@ Flex Column
 
 ![design blog page 2 screen shot](<images/Screenshot 2024-03-28 at 10.56.29 am.png>)
 
+---
+
 **Blog Page 4 - Gardening**
 
 - Nav bar linking six HTML documents together via a component - with 'Blog' highlighted in lilac to let the viewer know what page they are on.
@@ -197,6 +243,8 @@ Flex Column
 
 ![gardening blog page screenshot](<images/Screenshot 2024-03-28 at 10.56.57 am.png>)
 
+---
+
 **Blog Page 5 - Cooking**
 
 - Nav bar linking six HTML documents together via a component - with 'Blog' highlighted in lilac to let the viewer know what page they are on.
@@ -206,8 +254,6 @@ Flex Column
 - 'Read to Blog' button styled component that links the viewer back to the blog page.
 - Footer.
 
-![cooking blog page screenshot](<images/Screenshot 2024-03-28 at 10.57.47 am.png>)
-
 **Flexbox examples**
 
 Flex Row
@@ -216,6 +262,10 @@ Flex Row
 
 Flex Column
 ![flex column blog example](<images/Screenshot 2024-03-27 at 3.10.22 pm.png>)
+
+---
+
+![cooking blog page screenshot](<images/Screenshot 2024-03-28 at 10.57.47 am.png>)
 
 **Blog Pages**
 
@@ -228,6 +278,8 @@ Flex Column
 - 'Return to blog' component styled button - that takes the viewer back to the blog main page. 
 - Footer
 
+---
+
 **Contact**
 
 - Nav bar linking six HTML documents together via a component - 'Contact' highlighted in lilac to let the viewer know what page they are on.
@@ -237,6 +289,8 @@ Flex Column
 - A paragraph section in italics acklowedging the traditional owners of the land in which the website was built. 
 - Links to professional LinkedIn and GitHub pages via a logo image anchor link.  
 - Footer. 
+
+---
 
 ## Components
 
@@ -249,5 +303,7 @@ Flex Column
 - **Paragraphs** - body copy was styled the same way, to achieve consistency and increase legibility, using the same font family, weight and height. Paragraphs that stretch across the screen in desktop view are difficult to read because it can be hard to find the next line. The same font size and family have been used to communicate to the viewer that the content is a paragraph about the current page subject. 
 
 - **Blog Images** - are the styled to be the same size and each increase slightly in ratios when hovered over. They also have a lilac drop shadow and a black solid border. 
+
+---
 
 ## Thanks for looking! 
