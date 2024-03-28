@@ -3,9 +3,12 @@
 
 And welcome to Tom Martin's portfolio website's readme page. 
 
-You can visit my Portfolio Website **[here](https://tommartinportfolio.netlify.app/)** .
+You can visit my Portfolio Website **[here](https://tommartinportfolio.netlify.app/)**.
 
-And access the code via the Github repo **[here](https://github.com/TommyMart/Tom-Martin-Portfoliowebsite)** .
+And access the code via the Github repo **[here](https://github.com/TommyMart/Tom-Martin-Portfoliowebsite)**.
+
+You can watch a walk through presentation video of my portfolio website here **[here](https://www.loom.com/share/0dd3bf648f21450783588dff90051689?sid=826f0445-363b-4977-9494-6ec06ab26b95)**.
+
 
 ## Purpose
 
