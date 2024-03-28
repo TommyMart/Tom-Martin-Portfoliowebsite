@@ -59,9 +59,9 @@ I wanted the website to have a simple, modern, clean and sharp aesthetic. To ach
 
 ![colour palette](<images/Screenshot 2024-03-26 at 3.18.34 pm.png>)
 
-A simple **Nunito sans serif** font was used to improve legibility and cohesively work with the modern aesthetic of the site. Simple annimations were used to make the wesbite more interesting, though these were purposefully not overdone to keep inline with the chosen aesthetic. 
-
 ---
+
+A simple **Nunito sans serif** font was used to improve legibility and cohesively work with the modern aesthetic of the site. Simple annimations were used to make the wesbite more interesting, though these were purposefully not overdone to keep inline with the chosen aesthetic. 
 
 ![Nunito font example](<images/Screenshot 2024-03-26 at 1.23.40 pm.png>)
 ![Nunito font example](<images/Screenshot 2024-03-26 at 1.23.26 pm.png>)
