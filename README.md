@@ -90,6 +90,8 @@ Design wireframe
 - Links to professional LinkedIn and GitHub pages via a logo image anchor link.  
 - Footer. 
 
+![home page screenshot](<images/Screenshot 2024-03-28 at 10.23.44 am.png>)
+
 **About**
 
 - Nav bar linking six HTML documents together via a component - 'About' highlighted in lilac to let the viewer know what page they are on.
@@ -98,6 +100,8 @@ Design wireframe
 - H2 'Education' heading.
 - List of education. 
 - Footer. 
+
+![about me page screenshot](<images/Screenshot 2024-03-28 at 10.24.22 am.png>)
 
 **Skills**
 
@@ -113,6 +117,8 @@ Flex Row
 Flex Column
 ![flex column skills example](<images/Screenshot 2024-03-27 at 3.06.02 pm.png>)
 
+![skills page screenshot](<images/Screenshot 2024-03-28 at 10.37.22 am.png>)
+
 **Projects**
 
 - Nav bar linking six HTML documents together via a component - 'Projects' highlighted in lilac to let the viewer know what page they are on.
@@ -120,6 +126,8 @@ Flex Column
 - Six project styled components including a heading, short description paragraph and an image. 
 - Each project component has a button styled component that links the viewer to the project if it is ready or says 'coming soon'. 
 - Footer.
+
+![projects page screenshot](<images/Screenshot 2024-03-28 at 10.37.55 am.png>)
 
 **Flexbox examples**
 
@@ -138,6 +146,64 @@ Flex Column
 - Five blog styled components including a heading, date published and an image. 
 - Each project component has a 'read more' button styled component that links the viewer to the blog post.
 - Footer.
+
+![blog page screenshot](<images/Screenshot 2024-03-28 at 10.38.36 am.png>)
+
+**Blog Page 1 - Music Production**
+
+- Nav bar linking six HTML documents together via a component - with 'Blog' highlighted in lilac to let the viewer know what page they are on.
+- H1 'Blog' heading. 
+- Descriptive paragraph.
+- Images of vinyl record releases.
+- 'Read to Blog' button styled component that links the viewer back to the blog page.
+
+![music production blog page screenshot](<images/Screenshot 2024-03-28 at 10.39.05 am.png>)
+
+**Blog Page 2 - Record Label**
+
+- Nav bar linking six HTML documents together via a component - with 'Blog' highlighted in lilac to let the viewer know what page they are on.
+- H1 'Blog' heading. 
+- Descriptive paragraph.
+- Images of vinyl record releases.
+- 'Read to Blog' button styled component that links the viewer back to the blog page.
+- Footer.
+
+![record label blog page screenshot](<images/Screenshot 2024-03-28 at 10.55.04 am.png>)
+
+**Blog Page 3 - Design**
+
+- Nav bar linking six HTML documents together via a component - with 'Blog' highlighted in lilac to let the viewer know what page they are on.
+- H1 'Blog' heading. 
+- Four images of designs.
+- Descriptive paragraph.
+- 'Read to Blog' button styled component that links the viewer back to the blog page.
+- Footer.
+
+![design blog page 1 screen shot](<images/Screenshot 2024-03-28 at 10.55.59 am.png>)
+
+![design blog page 2 screen shot](<images/Screenshot 2024-03-28 at 10.56.29 am.png>)
+
+**Blog Page 4 - Gardening**
+
+- Nav bar linking six HTML documents together via a component - with 'Blog' highlighted in lilac to let the viewer know what page they are on.
+- H1 'Blog' heading. 
+- Image.
+- Descriptive paragraph.
+- 'Read to Blog' button styled component that links the viewer back to the blog page.
+- Footer.
+
+![gardening blog page screenshot](<images/Screenshot 2024-03-28 at 10.56.57 am.png>)
+
+**Blog Page 5 - Cooking**
+
+- Nav bar linking six HTML documents together via a component - with 'Blog' highlighted in lilac to let the viewer know what page they are on.
+- H1 'Blog' heading. 
+- Image.
+- Descriptive paragraph.
+- 'Read to Blog' button styled component that links the viewer back to the blog page.
+- Footer.
+
+![cooking blog page screenshot](<images/Screenshot 2024-03-28 at 10.57.47 am.png>)
 
 **Flexbox examples**
 
