@@ -25,8 +25,8 @@ main {
     text-align: center;
     position: relative;
     /* height: 85dvh; */
-    background-image: "images/Macbook_graphsUI.png";
-    /* background-color: white; */
+    
+    background-color: white;
     
     min-height: 85vh;
     /* background-color: #111; */
@@ -38,6 +38,7 @@ main > section {
     align-items: center;
     flex-direction: row;
     gap: 1em;
+    background-image: "images/Macbook_graphsUI.png";
 }
 main > img {
     
