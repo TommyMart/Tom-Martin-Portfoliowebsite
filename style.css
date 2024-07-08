@@ -27,7 +27,7 @@ main {
     /* height: 85dvh; */
     
     background-color: white;
-    
+    background-image: url("images/Macbook_graphsUI.png");
     min-height: 85vh;
     /* background-color: #111; */
 }
@@ -38,7 +38,6 @@ main > section {
     align-items: center;
     flex-direction: row;
     gap: 1em;
-    background-image: "images/Macbook_graphsUI.png";
 }
 main > img {
     
