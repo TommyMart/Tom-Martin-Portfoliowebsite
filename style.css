@@ -25,8 +25,9 @@ main {
     text-align: center;
     position: relative;
     /* height: 85dvh; */
-    background-color: white;
     background-image: "images/Macbook_graphsUI.png";
+    background-color: white;
+    
     min-height: 85vh;
     /* background-color: #111; */
 }
